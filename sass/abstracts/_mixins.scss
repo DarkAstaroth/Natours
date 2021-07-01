@@ -33,6 +33,8 @@
   -tablet portrait
   -tablet landscape
   -big desktop
+
+  ORDER : Base + typography > general + grid > page layout
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
