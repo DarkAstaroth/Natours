@@ -418,14 +418,13 @@ body {
 
 .story {
   width: 75%;
-  margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem;
-  transform: skewX(-12deg); }
+  transform: skewX(-10deg); }
   @media (max-width: 56.25em) {
     .story {
       width: 100%;
@@ -445,8 +444,8 @@ body {
     height: 15rem;
     background-color: #fff;
     float: left;
-    shape-outside: circle(50% at 50% 50%);
-    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(40% at 45% 45%);
+    -webkit-shape-outside: circle(40% at 45% 45%);
     clip-path: circle(50% at 50% 50%);
     -webkit-clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
