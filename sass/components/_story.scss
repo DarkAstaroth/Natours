@@ -15,6 +15,7 @@
     padding-left: 7rem;
   }
 
+
   @include respond(phone){
     width: 70%;
     display: flex;
@@ -40,11 +41,10 @@
     position: relative;
 
     @include respond(phone){
-      float: left;
-      margin: 0 auto;
+     
       shape-outside: circle(0% at 0% 0%);
       -webkit-shape-outside: circle(0% at 0% 0%);
-      transform: translateX(-3rem) skewX(-0deg);
+      transform: translateX(0rem) skewX(-0deg);
     }
   }
 
